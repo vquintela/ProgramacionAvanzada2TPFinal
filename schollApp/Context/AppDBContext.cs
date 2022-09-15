@@ -11,5 +11,6 @@ namespace schollApp.Context
         }
 
         public DbSet<Usuario> usuario { get; set; }
+        public DbSet<Materia> materia { get; set; }
     }
 }
